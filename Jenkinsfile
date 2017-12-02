@@ -6,5 +6,4 @@ checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleC
 
 }
   sh test.sh
-  sh chmod 777 'gradlew'
 }
