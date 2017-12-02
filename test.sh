@@ -1,0 +1,4 @@
+node ('Master")
+{
+echo "test"
+}
